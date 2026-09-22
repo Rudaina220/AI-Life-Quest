@@ -41,7 +41,8 @@ app.add_middleware(
     allow_origins=[
         "http://localhost:5173",
         "http://127.0.0.1:5173",
-        "https://ai-life-quest-git-main-rudy20.vercel.app"
+        "https://ai-life-quest-git-main-rudy20.vercel.app",
+        "ai-life-quest.vercel.app"
     ],
 
     allow_credentials=True,
