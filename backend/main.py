@@ -44,7 +44,7 @@ app.add_middleware(
         "ai-life-quest.vercel.app"
     ],
 
-    allow_credentials=False,
+    allow_credentials=True,
 
     allow_methods=["*"],
 
